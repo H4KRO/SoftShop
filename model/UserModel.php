@@ -1,9 +1,12 @@
 <?php
 
-class Product{
-	public $ref;
+class UserModel{
+	public $login;
+	public $password;
 	public $name;
-	public $price;
+	public $surname;
+	public $email;
+	public $role;
 
 	public function __construct($data){
 		foreach($data as $key => $value){
